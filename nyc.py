@@ -6,7 +6,7 @@ st.title('Bike Rides in NYC')
 st.subheader('Facundo Vecchi A01283666')
 
 DATE_COLUMN = 'started_at'
-DATA_URL = 'citibike-tripdata.csv'
+DATA_URL = 'https://raw.githubusercontent.com/facund015/Tec_Stuff/master/TransformacionDigital/citibike-tripdata.csv?token=GHSAT0AAAAAAB7J4ZK2GRJZRHPSIFZ45MIUZAL3LOA'
 
 tab1, tab2, tab3 = st.tabs(["Raw Data", "Bar Chart", "Map"])
 
